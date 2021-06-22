@@ -1,0 +1,107 @@
+.navbar{
+	width: 50%;
+	display: flex;
+	position: fixed;
+	color: white;
+	justify-content: space-between;
+	margin-left: 25%;
+	height: 60px;
+	align-items: center;
+}
+.navbar-right{
+	display: flex;
+	flex-direction: row;
+}
+.navbar-item{
+	margin: 0 20px;
+	font-size: 14px;
+}
+.banner{
+	height: 500px;
+	justify-content: center;
+	display: flex;
+	background: url(img/banner.png);
+	flex-direction: column;
+	color: white;
+	font-size: 20px;
+	align-items: center;
+}
+.main{
+	width: 64%;
+	margin: 0 auto;
+}
+.desc{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.check-people{
+	padding: 5px 10px;
+}
+.check-title{
+	background: #444;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	line-height: 36px;
+}
+.check-main{
+	display: flex;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background: #303338;
+	color: #105D5E;
+	padding: 5px 10px;
+	height: 600px;
+}
+.check-people-list{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	overflow-y: scroll;
+}
+.check-people-list>img{
+	width: 60%;
+	border-radius: 50%;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.check-people-info{
+	flex: 7;
+	display: flex;
+	justify-content: space-between;
+}
+.team-about{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 35px 0;
+	background: #F7F9FC;
+}
+.team-about>div{
+	margin: 2px 0;
+}
+.footer{
+	display: flex;
+}
+.footer-left, .footer-right{
+	flex: 1;
+}
+.footer-right{
+	display: flex;
+	flex-direction: row;
+}
+.footer-right-item{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+.footer-item-title{
+	font-weight: bold;
+}

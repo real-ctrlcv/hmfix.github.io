@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>案例</title>
+		<style>
+			.main{
+				width: 60%;
+				margin: 0 auto;
+				display: flex;
+				flex-direction: row;
+			}
+			.left{
+				display: flex;
+				flex-direction: column;
+				flex: 7;
+				border: 3px solid #0B59A3;
+				padding: 20px;
+				border-radius: 20px;
+				box-shadow: 5px 5px 20px black;
+			}
+			p{
+				color: #888;
+			}
+			.content{
+				background: #F7F7F7;
+				border-radius: 15px;
+			}
+			li{
+				font-style: italic;
+				color: #666;
+			}
+			a{
+				text-decoration: none;
+				color: #4987C4;
+			}
+			ul > li a{
+				color: #00A1D6;
+				font-style: normal;
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+			.toggle-item{
+				line-height: 40px;
+				/* padding-left: 20px; */
+				background-color: darkorange;
+				font-size: 18px;
+				color: white;
+				text-indent: 1.5em;
+			}
+			.child-1, .child-2, .child-3, .child-4, .child-5, .child-6, .child-7, .child-8{
+				width: 100%;
+				overflow: hidden;
+				background-color: white;
+				color: black;
+				height: 0px;
+				transition: 1s height;
+			}
+			.item1:hover .child-1{
+				height: 40px;
+			}
+			.item2:hover .child-2{
+				height: 80px;
+			}
+			.item3:hover .child-3{
+				height: 80px;
+			}
+			.item4:hover .child-4{
+				height: 80px;
+			}
+			.item5:hover .child-5{
+				height: 80px;
+			}
+			.item6:hover .child-6{
+				height: 80px;
+			}
+			.item7:hover .child-7{
+				height: 40px;
+			}
+			.item8:hover .child-8{
+				height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="left">
+				<img src="test3img.png" style="width: 100%;">
+				<h2 style="color: #00A1D6">所有案件案例将不会公开以及泄露详细情况</h2>
+				<p>
+					La sicurezza informatica è l’insieme dei mezzi e delle tecnologie tesi alla protezione dei sistemi informatici in termini di 
+					disponibilità, .confidenzialità e integrità dei beni o asset informatici. È anche noto come sicurezza della tecnologia dell’
+					informazione o sicurezza delle informazioni elettroniche.
+				</p>
+				<p>
+					Per un’efficace sicurezza informatica, un’organizzazione deve coordinare i propri sforzi in tutto il suo intero sistema informativo.
+					<br>
+					Gli elementi del cyber  comprendono tutto quanto segue:
+				</p>
+				<div class="toggle-list">
+					<div class="toggle-item item1">
+						Sicurezza di rete:
+						<div class="child-1">il processo di protezione della rete da utenti indesiderati, attacchi e intrusioni.</div>
+					</div>
+					<div class="toggle-item item2">
+						Sicurezza degli endpoint:
+						<div class="child-2">
+							l’accesso remoto è una parte necessaria del business, ma può anche essere 
+							un punto debole per i dati. La sicurezza degli endpoint è il processo di protezione dell’accesso remoto alla rete di un’azienda.
+						</div>
+					</div>
+					<div class="toggle-item item3">
+						Sicurezza dei dati:
+						<div class="child-3">
+							all’interno delle reti e delle applicazioni ci sono i dati. La protezione delle informazioni aziendali e dei clienti è un livello di sicurezza separato.
+						</div>
+					</div>
+					<div class="toggle-item item4">
+						Gestione dell’identita:
+						<div class="child-4">
+							essenzialmente, questo è un processo di comprensione dell’accesso che ogni individuo ha in un’organizzazione.
+						</div>
+					</div>
+					<div class="toggle-item item5">
+						Sicurezza del database e dell’infrastruttura:
+						<div class="child-5">
+							tutto in una rete coinvolge database e apparecchiature fisiche. La protezione di questi dispositivi è altrettanto importante.
+						</div>
+					</div>
+					<div class="toggle-item item6">
+						Sicurezza nel cloud:
+						<div class="child-6">
+							molti file si trovano in ambienti digitali o “nel cloud”. La protezione dei dati in un ambiente online al 100% presenta una grande quantità di sfide.
+						</div>
+					</div>
+					<div class="toggle-item item7">
+						Sicurezza mobile:
+						<div class="child-7">
+							telefoni cellulari e tablet implicano praticamente ogni tipo di sfida alla sicurezza in sé e per sé.
+						</div>
+					</div>
+					<div class="toggle-item item8">
+						Disaster recovery / pianificazione della continuita operativa
+						<div class="child-8">
+							in caso di violazione , disastro naturale o altri eventi, i dati devono essere protetti e l’attività deve continuare. Per questo, avrai bisogno di un piano.
+							Formazione dell’utente finale: gli utenti possono essere dipendenti che accedono alla rete o clienti che accedono a un’app aziendale. L’educazione di buone 
+							abitudini (modifiche della password, autenticazione a 2 fattori, ecc.) È una parte importante della sicurezza informatica.
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<h2 style="color: orange;">Suggerimenti per la sicurezza informatica: proteggiti dagli attacchi informatici</h2>
+					<p>Come possono le aziende e gli individui proteggersi dalle minacce informatiche? Ecco i nostri migliori suggerimenti per la sicurezza informatica:</p>
+					<ol>
+						<li>Aggiorna il software e il sistema operativo: questo significa che puoi beneficiare delle ultime patch di sicurezza.</li>
+						<li>Usa software antivirus: soluzioni di sicurezza che rileveranno e rimuoveranno le minacce. Mantieni aggiornato il tuo software per il miglior livello di protezione.</li>
+						<li>Usa password complesse: assicurati che le tue password non siano facilmente indovinabili.</li>
+						<li>Non aprire allegati di posta elettronica da mittenti sconosciuti: potrebbero essere infettati da malware.</li>
+						<li>Non fare clic sui collegamenti nelle e-mail provenienti da mittenti sconosciuti o siti Web sconosciuti: questo è un modo comune in cui il malware viene diffuso.</li>
+						<li>Evita di utilizzare reti Wi-Fi non sicure in luoghi pubblici: le reti non sicure ti rendono vulnerabile agli attacchi man-in-the-middle. </li>
+					</ol>
+				</div>
+				<p>
+					<a href="1.html">cambia pagina</a>
+				</p>
+				<div>
+					Tags: <a href="test.html">test</a>, <a href="test2.html">test2</a>
+				</div>
+			</div>
+		</div>
+			<div style="display: flex; justify-content: center; align-items: center; height: 60px;">Copyright © 2021-2022</div>
+	</body>
+</html>
